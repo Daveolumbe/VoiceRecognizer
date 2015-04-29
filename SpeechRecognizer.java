@@ -13,7 +13,7 @@
  *
  *
  */
-package com.phonegap.plugins.VoiceRecognizer;
+package com.corumgaz.mobilsayac.VoiceRecognizer;
 
 import java.util.ArrayList;
 import java.util.Locale;
