@@ -9,12 +9,12 @@
   <description>Recognizes speech input</description>
   <license>MIT</license>
   
-  <js-module src="SpeechRecognizer.js" name="VoiceRecognizer">
+  <js-module src="VoiceRecognizer.js" name="VoiceRecognizer">
     <clobbers target="mobilsayac.VoiceRecognizer" /> 
   </js-module>
   
   <platform name="android">
-    <source-file src="SpeechRecognizer.java" target-dir="src/com/corumgaz/mobilsayac/VoiceRecognizer" />
+    <source-file src="VoiceRecognizer.java" target-dir="src/com/corumgaz/mobilsayac/VoiceRecognizer" />
     <source-file src="LanguageDetailsChecker.java" target-dir="src/com/corumgaz/mobilsayac/VoiceRecognizer" />
     
     <config-file target="res/xml/config.xml" parent="/*">
