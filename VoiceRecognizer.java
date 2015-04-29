@@ -31,7 +31,7 @@ import android.speech.RecognizerIntent;
  * Style and such borrowed from the TTS and PhoneListener plugins
  */
 public class VoiceRecognizer extends CordovaPlugin {
-    private static final String LOG_TAG = VoiceRecognizer.class.getSimpleName();
+    private static final String LOG_TAG = SpeechRecognizer.class.getSimpleName();
     private static int REQUEST_CODE = 1001;
 
     private CallbackContext callbackContext;
