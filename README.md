@@ -35,7 +35,7 @@ Example
                 var maxMatches = 5;
                 var promptString = "Speak now";	// optional
                 var language = "en-US";						// optional
-                window.plugins.VoiceRecognizer.startRecognize(function(result){
+                window.mobilsayac.VoiceRecognizer.startRecognize(function(result){
                     alert(result);
                 }, function(errorMessage){
                     console.log("Error message: " + errorMessage);
@@ -44,7 +44,7 @@ Example
 
             // Show the list of the supported languages
             function getSupportedLanguages() {
-                window.plugins.VoiceRecognizer.getSupportedLanguages(function(languages){
+                window.mobilsayac.VoiceRecognizer.getSupportedLanguages(function(languages){
                     // display the json array
                     alert(languages);
                 }, function(error){
